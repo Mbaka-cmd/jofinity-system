@@ -7,7 +7,7 @@
 <title>Services | Jofinitycore Systems Ltd</title>
 <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800&family=Chakra+Petch:wght@400;500;600;700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <link rel="stylesheet" href="css/style.css">
 </head>
@@ -20,9 +20,22 @@
       <div class="nav-logo-text"><span class="nav-logo-name">JOFINITYCORE</span><span class="nav-logo-tagline">Systems Ltd</span></div>
     </a>
     <div class="nav-links" id="navMenu">
-      <a href="index.html">Home</a><a href="about.html">About</a><a href="services.html" class="active">Services</a><a href="projects.html">Projects</a><a href="contact.html">Contact</a>
-      <div class="nav-cta"><a href="contact.html" class="btn btn-primary"><i class="fas fa-phone-alt"></i> Get a Quote</a></div>
+      <a href="index.html">Home</a><a href="about.html">About</a>
+      <div class="nav-dropdown">
+        <a href="services.html" class="nav-dropdown-toggle active">Services <i class="fas fa-chevron-down nav-dropdown-arrow"></i></a>
+        <div class="nav-dropdown-menu">
+          <a href="services.html#cctv"><i class="fas fa-video"></i> CCTV Installation</a>
+          <a href="services.html#access"><i class="fas fa-lock"></i> Access Control</a>
+          <a href="services.html#fencing"><i class="fas fa-bolt"></i> Electric Fencing</a>
+          <a href="services.html#alarm"><i class="fas fa-bell"></i> Alarm Systems</a>
+          <a href="services.html#biometric"><i class="fas fa-fingerprint"></i> Biometric Systems</a>
+          <a href="services.html#networking"><i class="fas fa-network-wired"></i> Networking</a>
+        </div>
+      </div>
+      <a href="projects.html">Projects</a><a href="contact.html">Contact</a>
+      <div class="nav-cta nav-cta-mobile"><a href="contact.html" class="btn btn-primary"><i class="fas fa-phone-alt"></i> Get a Quote</a></div>
     </div>
+    <div class="nav-cta nav-cta-desktop"><a href="contact.html" class="btn btn-primary"><i class="fas fa-phone-alt"></i> Get a Quote</a></div>
     <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
   </div>
 </nav>
@@ -86,7 +99,7 @@
   <!-- ACCESS CONTROL -->
   <section class="svc-block svc-alt" id="access">
     <div class="container">
-      <div class="svc-grid svc-grid-rev">
+      <div class="svc-grid">
         <div class="svc-text aos">
           <div class="section-label">Entry Management</div>
           <h2>Access Control Systems</h2>
@@ -142,7 +155,7 @@
   <!-- ALARM SYSTEMS -->
   <section class="svc-block svc-alt" id="alarm">
     <div class="container">
-      <div class="svc-grid svc-grid-rev">
+      <div class="svc-grid">
         <div class="svc-text aos">
           <div class="section-label">Intrusion Detection</div>
           <h2>Alarm Systems</h2>
@@ -198,7 +211,7 @@
   <!-- NETWORKING -->
   <section class="svc-block svc-alt" id="networking">
     <div class="container">
-      <div class="svc-grid svc-grid-rev">
+      <div class="svc-grid">
         <div class="svc-text aos">
           <div class="section-label">Infrastructure</div>
           <h2>Networking Solutions</h2>

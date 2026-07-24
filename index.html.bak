@@ -13,16 +13,6 @@
 </head>
 <body>
 
-<!-- CLIENTS -->
-<div class="clients-strip">
-  <div class="container">
-    <p class="clients-label">Trusted by schools, hospitals, businesses and industrial facilities across Kenya</p>
-    <div class="clients-row">
-      <span>RNN MOTORS</span><span>WATERFRONT CLUB HOUSE</span><span>XHONGMEI</span><span>LIFEBRIDGE HOSPITALS</span><span>AIRLINEWAYS</span><span>AZAM</span><span>RNN MOTORS</span><span>WATERFRONT CLUB HOUSE</span><span>XHONGMEI</span><span>LIFEBRIDGE HOSPITALS</span><span>AIRLINEWAYS</span><span>AZAM</span>
-    </div>
-  </div>
-</div>
-
 <nav id="navbar">
   <div class="nav-inner">
     <a href="index.html" class="nav-logo">
@@ -69,33 +59,7 @@
     <div class="hero-slide active" style="background-image:url('images/cctv_background2.jpeg');"></div>
   </div>
   <div class="hero-overlay"></div>
-<div class="hero-posters" aria-hidden="true">
-  <div class="poster-col poster-col-up">
-    <div class="poster-track">
-      <a href="services.html#alarm" class="poster-item"><img src="images/Alarm_Systems.jpg" alt="Alarm Systems" loading="lazy"><span class="poster-cap">Alarm Systems</span></a>
-      <a href="services.html#access" class="poster-item"><img src="images/Access_Control.jpeg" alt="Access Control" loading="lazy"><span class="poster-cap">Access Control</span></a>
-      <a href="services.html#fencing" class="poster-item"><img src="images/Electric_Fencing.jpeg" alt="Electric Fencing" loading="lazy"><span class="poster-cap">Electric Fencing</span></a>
-      <a href="services.html#cctv" class="poster-item"><img src="images/CCTV.jpeg" alt="CCTV Installation" loading="lazy"><span class="poster-cap">CCTV Installation</span></a>
-      <a href="services.html#alarm" class="poster-item"><img src="images/Alarm_Systems.jpg" alt="Alarm Systems" loading="lazy"><span class="poster-cap">Alarm Systems</span></a>
-      <a href="services.html#access" class="poster-item"><img src="images/Access_Control.jpeg" alt="Access Control" loading="lazy"><span class="poster-cap">Access Control</span></a>
-      <a href="services.html#fencing" class="poster-item"><img src="images/Electric_Fencing.jpeg" alt="Electric Fencing" loading="lazy"><span class="poster-cap">Electric Fencing</span></a>
-      <a href="services.html#cctv" class="poster-item"><img src="images/CCTV.jpeg" alt="CCTV Installation" loading="lazy"><span class="poster-cap">CCTV Installation</span></a>
-    </div>
-  </div>
-  <div class="poster-col poster-col-down">
-    <div class="poster-track">
-      <a href="services.html#biometric" class="poster-item"><img src="images/Biometrics.jpeg" alt="Biometric Systems" loading="lazy"><span class="poster-cap">Biometric Systems</span></a>
-      <a href="services.html#networking" class="poster-item"><img src="images/Networking.jpg" alt="Networking" loading="lazy"><span class="poster-cap">Networking</span></a>
-      <a href="services.html#cctv" class="poster-item"><img src="images/CCTV.jpeg" alt="CCTV Installation" loading="lazy"><span class="poster-cap">CCTV Installation</span></a>
-      <a href="services.html#alarm" class="poster-item"><img src="images/Alarm_Systems.jpg" alt="Alarm Systems" loading="lazy"><span class="poster-cap">Alarm Systems</span></a>
-      <a href="services.html#biometric" class="poster-item"><img src="images/Biometrics.jpeg" alt="Biometric Systems" loading="lazy"><span class="poster-cap">Biometric Systems</span></a>
-      <a href="services.html#networking" class="poster-item"><img src="images/Networking.jpg" alt="Networking" loading="lazy"><span class="poster-cap">Networking</span></a>
-      <a href="services.html#cctv" class="poster-item"><img src="images/CCTV.jpeg" alt="CCTV Installation" loading="lazy"><span class="poster-cap">CCTV Installation</span></a>
-      <a href="services.html#alarm" class="poster-item"><img src="images/Alarm_Systems.jpg" alt="Alarm Systems" loading="lazy"><span class="poster-cap">Alarm Systems</span></a>
-    </div>
-  </div>
-</div>
-<div class="hero-content container">
+  <div class="hero-content container">
 
     <div class="hero-eyebrow"><span></span>Protecting What Matters Most</div>
     <h1 class="hero-title hero-title-condensed">Security That<br><em class="text-cyan">Never Sleeps</em></h1>
@@ -104,14 +68,14 @@
       <a href="contact.html" class="btn btn-primary btn-lg"><i class="fas fa-file-alt"></i> Get a Free Quote</a>
       <a href="services.html" class="btn btn-outline btn-lg"><i class="fas fa-shield-alt"></i> Our Services</a>
     </div>
-    <div class="hero-stats hero-stats-cards">
-      <div class="hero-stat-card"><div class="hero-stat-num" data-counter="150" data-suffix="+">0+</div><div class="hero-stat-label">Systems Installed</div></div>
-      <div class="hero-stat-card"><div class="hero-stat-num" data-counter="9" data-suffix="+">0+</div><div class="hero-stat-label">Years Protecting</div></div>
-      <div class="hero-stat-card"><div class="hero-stat-num" data-counter="100" data-suffix="+">0+</div><div class="hero-stat-label">Clients Secured</div></div>
-      <div class="hero-stat-card"><div class="hero-stat-num" data-counter="24" data-suffix="/7">0</div><div class="hero-stat-label">Emergency Support</div></div>
+    <div class="hero-stats hero-stats-badged">
+      <div class="hero-stat"><div class="hero-stat-icon"><i class="fas fa-shield-alt"></i></div><div><div class="hero-stat-num" data-counter="150" data-suffix="+">0+</div><div class="hero-stat-label">Systems Installed</div></div></div>
+      <div class="hero-stat"><div class="hero-stat-icon"><i class="fas fa-calendar-alt"></i></div><div><div class="hero-stat-num" data-counter="9" data-suffix="+">0+</div><div class="hero-stat-label">Years Protecting</div></div></div>
+      <div class="hero-stat"><div class="hero-stat-icon"><i class="fas fa-users"></i></div><div><div class="hero-stat-num" data-counter="100" data-suffix="+">0+</div><div class="hero-stat-label">Clients Secured</div></div></div>
+      <div class="hero-stat"><div class="hero-stat-icon"><i class="fas fa-clock"></i></div><div><div class="hero-stat-num" data-counter="24" data-suffix="/7">0</div><div class="hero-stat-label">Emergency Support</div></div></div>
     </div>
   </div>
-</section></section>
+</section>
 
 <!-- INTRO -->
 <section class="section">
@@ -246,6 +210,18 @@
     </div>
   </div>
 </section>
+
+<!-- CLIENTS -->
+<div class="clients-strip">
+  <div class="container">
+    <p class="clients-label">Trusted by schools, hospitals, businesses and industrial facilities across Kenya</p>
+    <div class="clients-row">
+      <span>RNN MOTORS</span><span>WATERFRONT CLUB HOUSE</span><span>XHONGMEI</span><span>LIFEBRIDGE HOSPITALS</span><span>AIRLINEWAYS</span><span>AZAM</span>
+    </div>
+  </div>
+</div>
+
+
 
 <!-- FOOTER -->
 <footer>

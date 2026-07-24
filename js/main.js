@@ -1,4 +1,4 @@
-/* Jofinitycore Systems - Main JavaScript */
+﻿/* Jofinitycore Systems - Main JavaScript */
 
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Active nav link — works for both /page routes and page.html file paths
+  // Active nav link â€” works for both /page routes and page.html file paths
   const currentPath = window.location.pathname;
   const currentFile = currentPath.split('/').pop() || 'index.html';
   document.querySelectorAll('.nav-links a').forEach(link => {
@@ -210,3 +210,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
+

@@ -121,7 +121,7 @@ button{cursor:pointer;border:none;background:none;font-family:inherit;}
 
 /* ── NAVBAR ── */
 #navbar{
-  position:fixed;top:44px;left:0;right:0;z-index:1000;
+  position:fixed;top:0;left:0;right:0;z-index:1000;
   background:#ffffff;
   color:var(--ink);
   transition:box-shadow .3s;
@@ -265,7 +265,7 @@ button{cursor:pointer;border:none;background:none;font-family:inherit;}
 .hero-stat{padding:0 40px 0 0;}
 .hero-stat:first-child{padding-left:0;}
 .hero-stat-div{width:1px;height:40px;background:rgba(255,255,255,.14);margin:0 20px;}
-.hero-stat-num{font-family:var(--fmono);font-size:18px;font-weight:700;color:var(--white);line-height:1;}
+.hero-stat-num{font-family:var(--fmono);font-size:48px;font-weight:700;color:var(--white);line-height:1;}
 .hero-stat-label{font-family:var(--fmono);font-size:16px;font-weight:500;letter-spacing:.3px;text-transform:uppercase;color:#8a8a8a;margin-top:6px;}
 @keyframes fadeUp{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
 
@@ -276,7 +276,7 @@ button{cursor:pointer;border:none;background:none;font-family:inherit;}
   text-transform:uppercase;color:#e8e8e8;margin-bottom:18px;
   animation:fadeUp .7s .05s ease both;
 }
-.hero-eyebrow span{display:none;}
+.hero-eyebrow span{display:block;width:34px;height:2px;background:var(--accent);}
 
 /* ── CONDENSED HEADLINE TREATMENT ── */
 .hero-title-condensed{
@@ -437,9 +437,9 @@ button{cursor:pointer;border:none;background:none;font-family:inherit;}
 .tcard-author span{font-size:12px;color:var(--gray);}
 
 /* ── CLIENTS STRIP ── */
-.clients-strip{}
+.clients-strip{border-top:1px solid var(--charcoal-line);border-bottom:1px solid var(--charcoal-line);padding:40px 0;}
 .clients-label{text-align:center;font-family:var(--fmono);font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#9a9a9a;margin-bottom:32px;}
-.clients-row{display:flex;align-items:center;}
+.clients-row{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:24px 40px;}
 .clients-row span{font-family:var(--fhead);font-size:16px;font-weight:700;letter-spacing:.5px;color:rgba(245,245,245,.35);transition:color .2s;cursor:default;}
 .clients-row span:hover{color:rgba(245,245,245,.75);}
 
@@ -739,42 +739,3 @@ footer{background:var(--charcoal-deep);border-top:1px solid var(--charcoal-line)
 @keyframes posterScrollUp{0%{transform:translateY(0);}100%{transform:translateY(-50%);}}
 @keyframes posterScrollDown{0%{transform:translateY(-50%);}100%{transform:translateY(0);}}
 @media(max-width:1300px){.hero-posters{display:none;}}
-/* ── HERO STATS AS CARDS (compact, contained) ── */
-.hero-stats-cards{
-  display:flex;flex-wrap:wrap;gap:12px;
-  max-width:560px;
-  border-top:none;padding:0;margin-top:36px;
-}
-.hero-stat-card{
-  background:rgba(255,255,255,.04);
-  border:1px solid rgba(255,255,255,.12);
-  border-radius:10px;
-  padding:12px 16px;
-  flex:1 1 110px;
-  min-width:110px;
-}
-.hero-stat-card .hero-stat-num{font-family:var(--fmono);font-size:18px;font-weight:700;color:var(--white);line-height:1;}
-.hero-stat-card .hero-stat-label{font-family:var(--fmono);font-size:10.5px;font-weight:500;letter-spacing:.3px;text-transform:uppercase;color:#8a8a8a;margin-top:5px;}
-
-/* ── CLIENTS STRIP AS RED LED MARQUEE ── */
-.clients-strip{
-  background:var(--accent, #e8483a);position:fixed;top:0;left:0;right:0;z-index:1001;height:44px;display:flex;align-items:center;overflow:hidden;padding:0;
-}
-.clients-label{display:none;}
-.clients-row{
-  display:flex;flex-wrap:nowrap;gap:0;
-  justify-content:flex-start;
-  white-space:nowrap;
-  animation:clientsMarquee 22s linear infinite;
-  width:max-content;
-}
-.clients-row span{
-  color:#ffffff;
-  padding:0 40px;
-  flex-shrink:0;
-}
-.clients-row span:hover{color:#ffffff;}
-@keyframes clientsMarquee{
-  0%{transform:translateX(0);}
-  100%{transform:translateX(-50%);}
-}

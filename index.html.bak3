@@ -13,16 +13,6 @@
 </head>
 <body>
 
-<!-- CLIENTS -->
-<div class="clients-strip">
-  <div class="container">
-    <p class="clients-label">Trusted by schools, hospitals, businesses and industrial facilities across Kenya</p>
-    <div class="clients-row">
-      <span>RNN MOTORS</span><span>WATERFRONT CLUB HOUSE</span><span>XHONGMEI</span><span>LIFEBRIDGE HOSPITALS</span><span>AIRLINEWAYS</span><span>AZAM</span><span>RNN MOTORS</span><span>WATERFRONT CLUB HOUSE</span><span>XHONGMEI</span><span>LIFEBRIDGE HOSPITALS</span><span>AIRLINEWAYS</span><span>AZAM</span>
-    </div>
-  </div>
-</div>
-
 <nav id="navbar">
   <div class="nav-inner">
     <a href="index.html" class="nav-logo">
@@ -246,6 +236,18 @@
     </div>
   </div>
 </section>
+
+<!-- CLIENTS -->
+<div class="clients-strip">
+  <div class="container">
+    <p class="clients-label">Trusted by schools, hospitals, businesses and industrial facilities across Kenya</p>
+    <div class="clients-row">
+      <span>RNN MOTORS</span><span>WATERFRONT CLUB HOUSE</span><span>XHONGMEI</span><span>LIFEBRIDGE HOSPITALS</span><span>AIRLINEWAYS</span><span>AZAM</span>
+    </div>
+  </div>
+</div>
+
+
 
 <!-- FOOTER -->
 <footer>

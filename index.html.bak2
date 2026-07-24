@@ -13,16 +13,6 @@
 </head>
 <body>
 
-<!-- CLIENTS -->
-<div class="clients-strip">
-  <div class="container">
-    <p class="clients-label">Trusted by schools, hospitals, businesses and industrial facilities across Kenya</p>
-    <div class="clients-row">
-      <span>RNN MOTORS</span><span>WATERFRONT CLUB HOUSE</span><span>XHONGMEI</span><span>LIFEBRIDGE HOSPITALS</span><span>AIRLINEWAYS</span><span>AZAM</span><span>RNN MOTORS</span><span>WATERFRONT CLUB HOUSE</span><span>XHONGMEI</span><span>LIFEBRIDGE HOSPITALS</span><span>AIRLINEWAYS</span><span>AZAM</span>
-    </div>
-  </div>
-</div>
-
 <nav id="navbar">
   <div class="nav-inner">
     <a href="index.html" class="nav-logo">
@@ -104,14 +94,14 @@
       <a href="contact.html" class="btn btn-primary btn-lg"><i class="fas fa-file-alt"></i> Get a Free Quote</a>
       <a href="services.html" class="btn btn-outline btn-lg"><i class="fas fa-shield-alt"></i> Our Services</a>
     </div>
-    <div class="hero-stats hero-stats-cards">
-      <div class="hero-stat-card"><div class="hero-stat-num" data-counter="150" data-suffix="+">0+</div><div class="hero-stat-label">Systems Installed</div></div>
-      <div class="hero-stat-card"><div class="hero-stat-num" data-counter="9" data-suffix="+">0+</div><div class="hero-stat-label">Years Protecting</div></div>
-      <div class="hero-stat-card"><div class="hero-stat-num" data-counter="100" data-suffix="+">0+</div><div class="hero-stat-label">Clients Secured</div></div>
-      <div class="hero-stat-card"><div class="hero-stat-num" data-counter="24" data-suffix="/7">0</div><div class="hero-stat-label">Emergency Support</div></div>
+    <div class="hero-stats hero-stats-badged">
+      <div class="hero-stat"><div class="hero-stat-icon"><i class="fas fa-shield-alt"></i></div><div><div class="hero-stat-num" data-counter="150" data-suffix="+">0+</div><div class="hero-stat-label">Systems Installed</div></div></div>
+      <div class="hero-stat"><div class="hero-stat-icon"><i class="fas fa-calendar-alt"></i></div><div><div class="hero-stat-num" data-counter="9" data-suffix="+">0+</div><div class="hero-stat-label">Years Protecting</div></div></div>
+      <div class="hero-stat"><div class="hero-stat-icon"><i class="fas fa-users"></i></div><div><div class="hero-stat-num" data-counter="100" data-suffix="+">0+</div><div class="hero-stat-label">Clients Secured</div></div></div>
+      <div class="hero-stat"><div class="hero-stat-icon"><i class="fas fa-clock"></i></div><div><div class="hero-stat-num" data-counter="24" data-suffix="/7">0</div><div class="hero-stat-label">Emergency Support</div></div></div>
     </div>
   </div>
-</section></section>
+</section>
 
 <!-- INTRO -->
 <section class="section">
@@ -246,6 +236,18 @@
     </div>
   </div>
 </section>
+
+<!-- CLIENTS -->
+<div class="clients-strip">
+  <div class="container">
+    <p class="clients-label">Trusted by schools, hospitals, businesses and industrial facilities across Kenya</p>
+    <div class="clients-row">
+      <span>RNN MOTORS</span><span>WATERFRONT CLUB HOUSE</span><span>XHONGMEI</span><span>LIFEBRIDGE HOSPITALS</span><span>AIRLINEWAYS</span><span>AZAM</span>
+    </div>
+  </div>
+</div>
+
+
 
 <!-- FOOTER -->
 <footer>
