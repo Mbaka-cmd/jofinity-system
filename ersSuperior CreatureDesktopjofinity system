@@ -1,0 +1,5 @@
+[33m480bf50[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Further reduce mobile nav menu font sizes
+[33mea4ba52[m Reduce mobile nav menu font size for better fit on phones
+[33m33478bf[m Remove marquee, fix nav gap, darken hero overlay, rebuild projects with real site data, fix contact map, replace admin link with Adalyn credit, clean up unused files
+[33m1b4b9b1[m Remove backup files from repository
+[33m3718939[m Major UI overhaul, branding improvements, typography refinements, responsive layout updates, and content enhancements
