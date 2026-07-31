@@ -678,7 +678,7 @@ footer{background:var(--charcoal-deep);border-top:1px solid var(--charcoal-line)
     z-index:999;align-items:flex-start;gap:4px;overflow-y:auto;
   }
   .nav-links.open{transform:translateY(0);}
-  .nav-links a{font-family:var(--fhead);font-size:26px;font-weight:700;padding:12px 0;width:100%;border-bottom:1px solid rgba(255,255,255,.06);color:var(--white);}
+  .nav-links a{font-family:var(--fhead);font-size:19px;font-weight:600;padding:12px 0;width:100%;border-bottom:1px solid rgba(255,255,255,.06);color:var(--white);}
   .nav-links a::after{display:none;}
   .nav-dropdown{width:100%;}
   .nav-dropdown-arrow{display:none;}
